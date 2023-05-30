@@ -373,6 +373,10 @@ body {
   margin: 20px 0;
 }
 
+.quotes-depoimentos {
+  width: 60%;
+}
+
 .quotes .quotes-texto button {
   background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
   border-radius: 4px;
@@ -392,16 +396,13 @@ body {
   margin-bottom: 30px;
 }
 
-.card-depoimentos:nth-child(1) {
-  margin-left: 300px;
+.card-depoimentos:nth-child(1),
+.card-depoimentos:nth-child(3) {
+  margin-left: auto;
 }
 
 .card-depoimentos:nth-child(2) {
   margin-left: 50px;
-}
-
-.card-depoimentos:nth-child(3) {
-  margin-left: 150px;
 }
 
 .card-depoimentos header {
@@ -535,6 +536,7 @@ body {
   height: 60px;
   width: 366.92px;
   padding: 0 25px;
+  color: white;
 }
 
 .newsletter .subescribe button {
@@ -648,11 +650,33 @@ hr {
     font-size: 68px;
     line-height: 65px;
   }
+
+  .newsletter .newsletter-texto h1 {
+    font-size: 66px;
+  }
+
+  .newsletter .newsletter-texto p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
   .features .features-text {
     width: 57%;
+  }
+
+  .quotes .container {
+    flex-direction: column;
+  }
+
+  .quotes-depoimentos {
+    width: 90%;
+    margin-top: 76px;
+  }
+
+  .quotes .quotes-texto {
+    width: 90%;
   }
 }
 
@@ -663,5 +687,61 @@ hr {
 
   .features .features-text {
     width: 96%;
+  }
+
+  .card-depoimentos {
+    margin: 30px 2px !important;
+    width: 88%;
+  }
+
+  .quotes-depoimentos {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .quotes .quotes-texto h1 {
+    font-size: 60px;
+    margin: 0;
+    line-height: 65px;
+  }
+
+  .quotes .quotes-texto p {
+    margin: 0;
+  }
+
+  .quotes .quotes-texto button {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width:980px) {
+  .newsletter .newsletter-texto {
+    width: 100%;
+  }
+  footer {
+    display: none;
+  }
+  .about{
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter .subescribe {
+    flex-direction: column;
+  }
+
+  .newsletter .newsletter-img {
+    width: 0px !important;
+  }
+
+  .newsletter .subescribe input {
+    width: 90%;
+  }
+
+  .newsletter .subescribe button {
+    padding: 15px 20px;
+    margin: 18px 0;
   }
 }
