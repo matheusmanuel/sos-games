@@ -1,31 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 /* classes auxialers */
 body {
   background-color: rgb(0, 0, 0);
 }
+
 .container {
   max-width: 1400px;
   padding: 0 4%;
   margin: 0 auto;
 }
+
 .wrapper-background {
   background: url(../img/bg\ image\ 1.jpg),
-    radial-gradient(
-      189.96% 61.18% at 50% 38.82%,
+    radial-gradient(189.96% 61.18% at 50% 38.82%,
       rgba(255, 181, 72, 0) 0%,
       rgba(52, 44, 29, 0.80319) 73.22%,
-      #08090a 99.74%
-    );
+      #08090a 99.74%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .wrapper-background nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
 }
+
 .wrapper-background nav ul a {
   font-style: normal;
   font-weight: 600;
@@ -36,6 +39,11 @@ body {
   color: #ffffff;
   margin: 0 25px;
 }
+
+.wrapper-background .menu-icon {
+  display: none;
+}
+
 .wrapper-background .language {
   display: flex;
   align-items: center;
@@ -43,25 +51,30 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+
 .wrapper-background .language img {
   margin-left: 10px;
   cursor: default;
 }
+
 .main {
   height: 100vh;
 }
+
 .main .texto-main {
   color: white;
   font-family: "Bebas Neue";
   margin-top: 250px;
   text-align: center;
 }
+
 .main .texto-main .titulo {
   font-size: 80px;
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 3px;
 }
+
 .main .texto-main .sub-titulo {
   font-size: 24px;
   font-weight: 700;
@@ -69,10 +82,11 @@ body {
   letter-spacing: 2px;
   margin: 10px 0;
 }
+
 .main .texto-main button {
   background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
   border-radius: 4px;
-  padding: 0 15px;
+  padding: 0 24px;
   height: 60px;
   font-style: normal;
   font-weight: 700;
@@ -82,12 +96,14 @@ body {
   margin: 10px auto;
   cursor: pointer;
 }
+
 .arrow-bottom .container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 .arrow-bottom .container p {
   font-style: normal;
   font-weight: 700;
@@ -97,20 +113,20 @@ body {
   text-transform: uppercase;
   color: white;
 }
+
 /* section about  */
 .about {
-  background: radial-gradient(
-      136.03% 54.57% at 50% 48.04%,
+  background: radial-gradient(136.03% 54.57% at 50% 48.04%,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0) 60.63%,
-      #080a0b 99.74%
-    ),
+      #080a0b 99.74%),
     url(../img/bg\ image\ 2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 9rem 0;
 }
+
 .about .container {
   display: flex;
   justify-content: center;
@@ -121,6 +137,7 @@ body {
 .about .about-texto {
   width: 50%;
 }
+
 .about .container h1 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -132,6 +149,7 @@ body {
   color: #ffffff;
   margin: 5px 0;
 }
+
 .about .container p {
   font-family: "Open Sans";
   font-style: normal;
@@ -155,40 +173,44 @@ body {
 .about .container .img-texto {
   width: 50%;
 }
+
 .about .container .img-texto img {
   border-radius: 20px;
   width: 100%;
 }
+
 /* section features */
 .features {
-  background-image: radial-gradient(
-      51.1% 80.48% at 30.85% 53.65%,
+  background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0) 19.2%,
       rgba(4, 5, 6, 0.520671) 47.48%,
-      #080a0b 99.74%
-    ),
+      #080a0b 99.74%),
     url(../img/Group.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
 }
+
 .features .container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 90%;
 }
+
 .features .features-text {
   font-family: "Bebas Neue";
   color: white;
   width: 45%;
-  margin-top: 20px;
+  margin-top: 280px;
 }
+
 .features .features-text .accordion {
   margin-top: 40px;
 }
+
 .features .features .features .features-text h3 {
   font-style: normal;
   font-weight: 700;
@@ -205,9 +227,11 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .features .accordion-item {
   margin-top: 30px;
 }
+
 .features .accordion-item h4 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -217,26 +241,27 @@ body {
   letter-spacing: 2px;
   color: #ffb548;
 }
+
 /* end section features */
 /* section  requisitos*/
 .requisitos {
-  background-image: radial-gradient(
-      33.26% 45% at 64.32% 47.1%,
+  background-image: radial-gradient(33.26% 45% at 64.32% 47.1%,
       rgba(255, 255, 255, 0) 3.36%,
       rgba(0, 0, 0, 0) 19.22%,
-      #080a0b 99.74%
-    ),
+      #080a0b 99.74%),
     url(../img/bg\ image\ 4.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 140vh;
 }
+
 .requisitos .container {
   text-align: center;
   padding-top: 130px;
   color: #ffffff;
 }
+
 .requisitos h3 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -245,6 +270,7 @@ body {
   line-height: 24px;
   letter-spacing: 2px;
 }
+
 .requisitos h1 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -254,9 +280,11 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .requisitos .row {
   display: flex;
 }
+
 .requisitos .row .propriedades-item:nth-child(1):not(.w100) {
   border-right: 0;
   border-bottom: 0;
@@ -268,7 +296,8 @@ body {
 
 .requisitos .propriedades {
   margin-top: 100px;
-  width: 50%;
+  width: 620.547px;
+  max-width: 100%;
 }
 
 .requisitos .propriedades-item {
@@ -285,6 +314,7 @@ body {
   color: #ffb548;
   text-align: left;
 }
+
 .requisitos .propriedades-item p {
   font-family: "Open Sans";
   font-style: normal;
@@ -293,18 +323,18 @@ body {
   line-height: 22px;
   text-align: left;
 }
+
 .requisitos .propriedades-item.w100 {
   width: 100%;
 }
+
 /*end section requisitos */
 /* section quotes */
 .quotes {
-  background: radial-gradient(
-    70.52% 37.27% at 24.21% 47.47%,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 0, 0, 0) 51.1%,
-    #080a0b 99.74%
-  );
+  background: radial-gradient(70.52% 37.27% at 24.21% 47.47%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #080a0b 99.74%);
 }
 
 .quotes .container {
@@ -318,12 +348,14 @@ body {
   font-weight: 700;
   width: 40%;
 }
+
 .quotes .quotes-texto h3 {
   font-family: "Bebas Neue";
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 2px;
 }
+
 .quotes .quotes-texto h1 {
   font-family: "Bebas Neue";
   font-size: 80px;
@@ -332,6 +364,7 @@ body {
   text-transform: uppercase;
   margin-top: 10px;
 }
+
 .quotes .quotes-texto p {
   font-family: "Open Sans";
   font-weight: 400;
@@ -339,6 +372,7 @@ body {
   line-height: 22px;
   margin: 20px 0;
 }
+
 .quotes .quotes-texto button {
   background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
   border-radius: 4px;
@@ -349,6 +383,7 @@ body {
   padding: 15px 20px;
   margin-top: 30px;
 }
+
 .card-depoimentos {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
@@ -360,25 +395,31 @@ body {
 .card-depoimentos:nth-child(1) {
   margin-left: 300px;
 }
+
 .card-depoimentos:nth-child(2) {
   margin-left: 50px;
 }
+
 .card-depoimentos:nth-child(3) {
   margin-left: 150px;
 }
+
 .card-depoimentos header {
   display: flex;
 }
+
 .card-depoimentos header .img-depoimentos {
   margin-right: 30px;
   position: relative;
 }
+
 .card-depoimentos header .img-depoimentos img {
   border-radius: 100%;
   z-index: 99;
   position: relative;
   width: 64px;
 }
+
 .card-depoimentos header .img-depoimentos .circle {
   width: 67px;
   height: 67px;
@@ -389,6 +430,7 @@ body {
   z-index: 1;
   transform: translatex(8px) translateY(4px);
 }
+
 .card-depoimentos header .texto-depoimento .name-user {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -398,6 +440,7 @@ body {
   letter-spacing: 2px;
   color: #ffb548;
 }
+
 .card-depoimentos header .texto-depoimento .name-profession {
   font-weight: 400;
   font-size: 18px;
@@ -406,9 +449,11 @@ body {
   color: #ffffff;
   opacity: 0.5;
 }
+
 .card-depoimentos .twitter {
   margin-left: auto;
 }
+
 .card-depoimentos .depoimentos {
   font-style: normal;
   font-weight: 400;
@@ -417,6 +462,7 @@ body {
   color: white;
   margin: 15px 0;
 }
+
 .card-depoimentos .data {
   font-style: normal;
   font-weight: 400;
@@ -426,6 +472,7 @@ body {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+
 /* end section quotes */
 /* section newsletter */
 .newsletter .container {
@@ -436,12 +483,10 @@ body {
 }
 
 .newsletter .newsletter-img {
-  background: radial-gradient(
-      45.43% 53.19% at 50% 50%,
+  background: radial-gradient(45.43% 53.19% at 50% 50%,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0) 46.15%,
-      #080a0b 99.74%
-    ),
+      #080a0b 99.74%),
     url(../img/caveira.png);
   height: 100vh;
   width: 40%;
@@ -460,6 +505,7 @@ body {
   line-height: 24px;
   letter-spacing: 2px;
 }
+
 .newsletter .newsletter-texto h1 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -469,6 +515,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .newsletter .newsletter-texto p {
   font-family: "Open Sans";
   font-style: normal;
@@ -477,6 +524,7 @@ body {
   line-height: 22px;
   margin: 30px 0;
 }
+
 .newsletter .subescribe {
   display: flex;
 }
@@ -486,8 +534,9 @@ body {
   border-radius: 5px;
   height: 60px;
   width: 366.92px;
-  padding: 0 10px;
+  padding: 0 25px;
 }
+
 .newsletter .subescribe button {
   background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
   border-radius: 4px;
@@ -495,11 +544,13 @@ body {
   margin-left: 20px;
   padding: 0 20px;
 }
+
 /* end section newsletter */
 footer {
   padding: 20px 0;
   background-color: #080a0b;
 }
+
 footer .container {
   display: flex;
   align-items: center;
@@ -524,24 +575,93 @@ footer .container ul li a {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
 footer .container .footer1-ul .medias-socias {
   margin-left: 40px;
 }
+
 footer .container .footer1-ul .medias-socias i {
   font-size: 19px;
   margin: 0 20px;
   color: white;
   transition: 0.2s;
 }
+
 footer .container .footer1-ul .medias-socias i:hover {
   color: red;
 }
+
 hr {
   width: 100%;
   display: block;
   color: red;
 }
+
 .container .copyright {
   color: #ffffff;
   opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .wrapper-background .menu-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .wrapper-background .menu-icon i {
+    color: white;
+    font-size: 24px
+  }
+
+  .wrapper-background nav ul {
+    display: none;
+  }
+
+  .wrapper-background .language {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:800px) {
+  .about .container {
+    flex-direction: column-reverse;
+  }
+
+  .requisitos .propriedades-item p {
+    font-size: 15px;
+  }
+
+  .about .about-texto {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .about .container .img-texto {
+    width: 90%;
+  }
+}
+
+@media (max-width: 930px) {
+  .about .container h1 {
+    font-size: 68px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .features .features-text {
+    width: 57%;
+  }
+}
+
+@media (max-width: 780px) {
+  .features {
+    background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgb(0 0 0 / 81%) 0%, rgb(0 0 0 / 72%) 19.2%, rgb(4 5 6 / 87%) 47.48%, #080a0b 99.74%), url(../img/Group.jpg);
+  }
+
+  .features .features-text {
+    width: 96%;
+  }
 }
